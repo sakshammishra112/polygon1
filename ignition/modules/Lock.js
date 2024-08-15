@@ -10,6 +10,5 @@ module.exports = buildModule("LockModule", (m) => {
   const lock = m.contract("Lock", [unlockTime], {
     value: lockedAmount,
   });
-
   return { lock };
 });
