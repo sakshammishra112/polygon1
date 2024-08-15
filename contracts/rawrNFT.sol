@@ -22,10 +22,12 @@ contract rawrNFT is ERC721A, Ownable {
             prompts[startTokenId+i] = _prompts[i];
         }
     }
+
     function promptDescription(uint _id) public view returns(string memory){
         require(_exists(_id), "Token doesn't exist");
         return prompts[_id];
     }
+
     function urlDescription(uint _id) public view returns(string memory){
         require(_exists(_id), "Token doesn't exist");
         return tokenUrls[_id];
