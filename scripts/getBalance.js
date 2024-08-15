@@ -7,9 +7,9 @@
 const hre = require("hardhat");
 const tokenContractJSON = require("../artifacts/contracts/rawrNFT.sol/rawrNFT.json");
 
-const tokenAddress = "0xfc9d8bf1c28289E1392271916CBFb14Bca13455a"; // place your erc20 contract address here
+const tokenAddress = "0xCEE225b7254a6c1708bC13B2f9D8d8aDC29FD5FD"; // place your erc20 contract address here
 const tokenABI = tokenContractJSON.abi;
-const walletAddress = "0x9BD5EE362566B0eB960fD9Ad7975119B09CD9264"; // place your public address for your wallet here
+const walletAddress = "0x3FB380D3E981106F962486e91D7E558E2815E953"; // place your public address for your wallet here
 
 async function main() {
 
