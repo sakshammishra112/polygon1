@@ -43,6 +43,7 @@ describe("Lock", function () {
         deployOneYearLockFixture
       );
 
+      
       expect(await ethers.provider.getBalance(lock.target)).to.equal(
         lockedAmount
       );
